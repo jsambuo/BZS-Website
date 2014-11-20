@@ -39,19 +39,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Blast Zone Studios</a>
+                <a class="navbar-brand" href="index.html">Blast Zone Studios</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Games</a>
+                        <a href="games.html">Games</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="index.html">Blog</a>
                     </li>
 		            <li>
                         <a href="#">Contact</a>
@@ -65,25 +65,48 @@
 
     <!-- Page Content -->
     <div class="container">
+		<div class="row">
+			<!--  Carousel - consult the Twitter Bootstrap docs at
+          http://twitter.github.com/bootstrap/javascript.html#carousel -->
+
+            <div class="carousel slide" id="this-carousel-id">
+                <!-- class of slide for animation -->
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#this-carousel-id" data-slide-to="0" class="active"></li>
+                    <li data-target="#this-carousel-id" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- class of active since it's the first item -->
+                        <img alt="" src="img/welcome.png">
+
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                    <div class="item">
+                        <img alt="" src="img/cuddlecakes_carousel.png">
+
+                        <div class="carousel-caption"></div>
+                    </div>
+                </div><!-- /.carousel-inner -->
+                <!--  Next and Previous controls below
+                href values must reference the id for this carousel -->
+                <a class="carousel-control left" data-slide="prev" href="#this-carousel-id"></a>
+                <a class="carousel-control right" data-slide="next" href="#this-carousel-id"></a>
+            </div><!-- /.carousel -->	
+		</div>
 
         <div class="row">
 
             <!-- Blog Entries Column -->
             <div class="col-md-8">
-
-                <h1 class="page-header">
-                    Blast Zone Studios
-                    <small>Secondary Text</small>
-                </h1>
-
                 <!-- First Blog Post -->
                 <h2>
                     <a href="#">Update on Haunted House Game</a>
                 </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on October 5th, 2014 at 10:00 PM</p>
+                <p>October 5th, 2014</p>
                 <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>
@@ -94,32 +117,26 @@
 
                 <!-- Second Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Update on Haunted House Game</a>
                 </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
+                <p>October 5th, 2014</p>
                 <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
 
                 <!-- Third Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Update on Haunted House Game</a>
                 </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
+                <p>October 5th, 2014</p>
                 <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
