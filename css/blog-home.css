@@ -5,7 +5,8 @@
  */
 
 body {
-    background-color: #333230;
+    background-color: #0D0B00;
+    color: #FFFDF3;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
@@ -26,7 +27,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1, h2, h3, h4, h5, h6 {
 }
 
 .well {
-  background-color: #3E3122;
+  background-color: #0D0B00;
+  border: none;
 }
 
 section header {
